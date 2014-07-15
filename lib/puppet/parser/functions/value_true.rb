@@ -23,14 +23,6 @@ module Puppet::Parser::Functions
       return false
     end
 
-    if value == 0
-      return false
-    end
-
-    if value == '0'
-      return false
-    end
-
     if value == 'false'
       return false
     end
